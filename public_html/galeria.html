@@ -1,0 +1,102 @@
+<html>
+    <head>
+
+        
+        <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+      <!-- Bootstrap CSS -->
+      <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+
+        <title>Stories in Pictures</title>
+        <meta charset="UTF-8">
+        <link href="estiloWebArte.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body id="corpo">
+        
+        <div id="menu">
+            <div class="logo"><a href="index.html"><img src="logo.png" id="logo"></a></div>
+        </div>
+
+        <div class="titulo"><h1><p class="titulo">Galeria</p></h1></div>
+        
+        <div id="imagens">
+            
+            <img id="imgProjeto" src="imagem 1.jpg">
+            <img id="imgProjeto" src="imagem 2.jpg">
+            <img id="imgProjeto" src="imagem 3.jpg">
+            <img id="imgProjeto" src="imagem 4.jpg">
+            <img id="imgProjeto" src="imagem 5.jpg">
+            <img id="imgProjeto" src="imagem 6.jpg">
+            <img id="imgProjeto" src="imagem 7.jpg">
+            <img id="imgProjeto" src="imagem 8.jpg">
+            <img id="imgProjeto" src="imagem 9.jpg">
+            <img id="imgProjeto" src="imagem 10.jpg">
+            <img id="imgProjeto" src="imagem 11.jpg">
+            <img id="imgProjeto" src="imagem 12.jpg">
+            <img id="imgProjeto" src="imagem 13.jpg">
+            <img id="imgProjeto" src="imagem 14.jpg">
+            <img id="imgProjeto" src="imagem 16.jpg">
+            <img id="imgProjeto" src="imagem 17.jpg">
+            <img id="imgProjeto" src="imagem 18.jpg">
+            <img id="imgProjeto" src="imagem 19.jpg">
+            <img id="imgProjeto" src="imagem 20.jpg">
+            <img id="imgProjeto" src="imagem 21.jpg">
+            <img id="imgProjeto" src="imagem 22.jpg">
+            <img id="imgProjeto" src="imagem 23.jpg">
+            <img id="imgProjeto" src="imagem 24.jpg">
+            <img id="imgProjeto" src="imagem 25.jpg">
+            
+        </div>
+        
+        <!--
+        <div id="texto">
+            <form name="meuForm"  method="post" id="formulario" action="http://formmail.kinghost.net/formmail.cgi">
+
+                <input type="hidden" name="recipient" value="emylysantosifc@gmail.com">  Pode ser qualquer endereço de email 
+                <input type="hidden" name="redirect" value="">  Após o envio, o usuário será redirecionado para a página configurada aqui 
+                <input type="hidden" name="subject" value="New comentário">  Assunto da mensagem 
+                <input type="hidden" name="email" value="emylysantosguitar@gmail.com">   Deve ser uma conta de email ativa em seu domínio 
+
+                <div class="box">
+                    <label>
+                        <span><p class="titulo">Comentar</p></span>
+                        <textarea class="message" name="feedback" id="feedback"></textarea>
+                        <input type="button" class="button" value="Enviar" />
+                    </label>
+                </div>
+            </form>
+        </div>
+        
+        <script>
+            function Enviar() {
+
+            var nome = document.getElementById("name");
+                if (nome.value != "") {
+                alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+                }
+            }
+        </script>
+    -->
+        
+        <form action="PHP_SELF.php" method="POST"> 
+            <div class="box">
+                <label>
+            <p> 
+                Mensagem:<br /> 
+                <input type="text" size="100" name="mensagem" class="message"> 
+            </p>   
+                </label>
+            </div>
+
+            <p>
+                <input type="submit" name="BTEnvia" value="Enviar" class="button">
+                <input type="reset" name="BTApaga" value="Apagar" class="button">
+            </p>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>        
+
+    </body>
+</html>
